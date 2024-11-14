@@ -65,7 +65,7 @@ router.post("/resetpassword", async (req, res) => {
       pass: "83Gs kRML 0EPZ",
     },
   });
-  const resetLink = `http://localhost:3000/user/resetpassword/${token}`;
+  const resetLink = `https://peaceful-sorbet-7648eb.netlify.app/user/resetpassword/${token}`;
   const message = {
     from: "silviya.prince16@zohomail.in",
     to: user.email,
